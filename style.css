@@ -14,15 +14,16 @@ body {
     height: 100vh;
     overflow: hidden;
     /* my dark styling */
-    background-color: rgb(19, 17, 17);
-    color: rgb(236, 222, 222);
+    background-color: rgb(255, 255, 255);
+    color: rgb(20, 19, 19);
 }
 
 .card {
     height: 600px;
     width: 300px;
-    border: green solid 1px;
+    /* border: green solid 1px; */
     background-image: url(cards/10C.jpg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center center;
 }
