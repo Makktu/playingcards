@@ -17,3 +17,12 @@ body {
     background-color: rgb(19, 17, 17);
     color: rgb(236, 222, 222);
 }
+
+.card {
+    height: 600px;
+    width: 300px;
+    border: green solid 1px;
+    background-image: url(cards/10C.jpg);
+    background-size: cover;
+    background-position: center center;
+}
